@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import pandas as pd
-import request
+import requests
 
 
 df = pd.read_excel("Excel_Files/Data_from_statista.xlsx","Sheet1")
