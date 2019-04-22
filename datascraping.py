@@ -14,6 +14,6 @@ for x in range(0,len(df.index)):
         df.loc[x, "HeadQuarters"] = headquarters
         df.loc[x, "Location"] = location
         print(df.iloc[x, 0],"|",headquarters,"|", location)
-        df.to_excel("Output.xlsx")
+        df.to_excel("Excel_Files/Output.xlsx")
     except AttributeError:
         pass
